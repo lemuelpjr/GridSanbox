@@ -6,4 +6,29 @@ body {
   max-width: 80rem;
   margin: auto;
 }
+
+.header {
+  text-align: center;
+  padding: 1rem;
+}
+
+.header__title {
+  color: #444;
+  font-size: 4rem;
+}
+
+.content {
+  background-color: #f0f0f0;
+  height: 50rem;
+  margin-bottom: 3rem;
+}
+
+.content__box {
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
