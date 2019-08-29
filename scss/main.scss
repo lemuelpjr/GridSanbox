@@ -27,9 +27,11 @@ body {
   // Define the number and width of columns
   grid-template-columns: 15rem 15rem 15rem;
   // Define gutter between rows
-  grid-row-gap: 2rem;
+  // grid-row-gap: 2rem;
   // Define gutter between columns
-  grid-column-gap: 2rem;
+  // grid-column-gap: 4rem;
+  // Define the same gutter between rows and columns
+  grid-gap: 3rem;
 
   &__box {
     color: #fff;
