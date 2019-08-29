@@ -27,6 +27,8 @@ body {
       grid-template-rows: 15rem 15rem;
   -ms-grid-columns: 15rem 15rem 15rem;
       grid-template-columns: 15rem 15rem 15rem;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
 }
 
 .content__box {
@@ -34,7 +36,6 @@ body {
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
-  margin: 2rem;
 }
 
 .content__box--1 {
