@@ -23,9 +23,15 @@ body {
   margin-bottom: 3rem;
   display: grid;
   // Define the number and height of rows
-  grid-template-rows: 15rem 15rem;
+  // grid-template-rows: 15rem 15rem;
   // Define the number and width of columns
-  grid-template-columns: 15rem 15rem 15rem;
+  // grid-template-columns: 15rem 15rem 15rem;
+
+  // Define the number and height of rows using REPEAT
+  grid-template-rows: repeat(2, 15rem);
+  // Define the number and width of columns using REPEAT
+  grid-template-columns: repeat(2, 15rem) 30rem;
+
   // Define gutter between rows
   // grid-row-gap: 2rem;
   // Define gutter between columns

@@ -23,10 +23,10 @@ body {
   margin-bottom: 3rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 15rem 15rem;
-      grid-template-rows: 15rem 15rem;
-  -ms-grid-columns: 15rem 15rem 15rem;
-      grid-template-columns: 15rem 15rem 15rem;
+  -ms-grid-rows: (15rem)[2];
+      grid-template-rows: repeat(2, 15rem);
+  -ms-grid-columns: (15rem)[2] 30rem;
+      grid-template-columns: repeat(2, 15rem) 30rem;
   grid-gap: 3rem;
 }
 
