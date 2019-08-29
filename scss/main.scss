@@ -14,6 +14,7 @@ body {
   &__title {
     color: #444;
     font-size: 4rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -36,7 +37,10 @@ body {
   // grid-template-columns: 1fr 2fr 1fr;
   
   // Define the number and width of columns using FRACTIONAL UNITS and percentage
-  grid-template-columns: 50% 1fr 1fr;
+  // grid-template-columns: 50% 1fr 1fr;
+
+  // Define the number and width of columns using REPEAT and FRACTIONAL UNIT
+  grid-template-columns: repeat(3, 1fr);
 
   // Define gutter between rows
   // grid-row-gap: 2rem;
@@ -53,6 +57,12 @@ body {
 
     &--1 {
       background-color: blueviolet;
+      // Define at which row this cell will start and end
+      grid-row-start: 2;
+      grid-row-end: 3;
+      // Define at which column this cell will start and end
+      grid-column-start: 2;
+      grid-column-end: 4;
     }
 
     &--2 {
