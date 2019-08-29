@@ -20,7 +20,7 @@ body {
 
 .content {
   background-color: #f0f0f0;
-  height: 50rem;
+  min-height: 50rem;
   margin-bottom: 3rem;
   display: grid;
   // Define the number and height of rows
@@ -79,6 +79,10 @@ body {
 
     &--5 {
       background-color: brown;
+      // Define at which row this cell will start and end
+      grid-row: 1 / 2;
+      // Define at which column this cell will start and end
+      grid-column: 3 / 4;
     }
 
     &--6 {

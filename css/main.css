@@ -20,7 +20,7 @@ body {
 
 .content {
   background-color: #f0f0f0;
-  height: 50rem;
+  min-height: 50rem;
   margin-bottom: 3rem;
   display: -ms-grid;
   display: grid;
@@ -62,6 +62,12 @@ body {
 
 .content__box--5 {
   background-color: brown;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
 }
 
 .content__box--6 {
