@@ -21,13 +21,41 @@ body {
   background-color: #f0f0f0;
   height: 50rem;
   margin-bottom: 3rem;
+  display: grid;
+  // Define the number and height of rows
+  grid-template-rows: 15rem 15rem;
+  // Define the number and width of columns
+  grid-template-columns: 15rem 15rem 15rem;
 
   &__box {
-    background-color: blueviolet;
     color: #fff;
     font-size: 2rem;
     text-align: center;
     padding: 1rem;
     margin: 2rem;
+
+    &--1 {
+      background-color: blueviolet;
+    }
+
+    &--2 {
+      background-color: indigo;
+    }
+
+    &--3 {
+      background-color: forestgreen;
+    }
+
+    &--4 {
+      background-color: olive;
+    }
+
+    &--5 {
+      background-color: brown;
+    }
+
+    &--6 {
+      background-color: tomato;
+    }
   }
 }

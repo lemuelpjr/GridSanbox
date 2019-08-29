@@ -21,14 +21,43 @@ body {
   background-color: #f0f0f0;
   height: 50rem;
   margin-bottom: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 15rem 15rem;
+      grid-template-rows: 15rem 15rem;
+  -ms-grid-columns: 15rem 15rem 15rem;
+      grid-template-columns: 15rem 15rem 15rem;
 }
 
 .content__box {
-  background-color: blueviolet;
   color: #fff;
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
   margin: 2rem;
+}
+
+.content__box--1 {
+  background-color: blueviolet;
+}
+
+.content__box--2 {
+  background-color: indigo;
+}
+
+.content__box--3 {
+  background-color: forestgreen;
+}
+
+.content__box--4 {
+  background-color: olive;
+}
+
+.content__box--5 {
+  background-color: brown;
+}
+
+.content__box--6 {
+  background-color: tomato;
 }
 /*# sourceMappingURL=main.css.map */
