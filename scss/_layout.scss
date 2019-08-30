@@ -1,13 +1,18 @@
 // GENERAL LAYOUT
 .layout {
   background-color: #f0f0f0;
+  min-height: 50rem;
+  // GRID RULES
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
 }
 
+// SELECT ALL DIRECT CHILDREN
 .layout > * {
   background-color: indigo;
   color: #fff;
+  font-size: 1.8rem;
+  padding: 1.5rem;
 }
