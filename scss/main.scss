@@ -1,5 +1,6 @@
 // Import partial SCSS files
 @import 'boxes';
+@import 'layout';
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -8,4 +9,15 @@ body {
 .container {
   max-width: 80rem;
   margin: auto;
+}
+
+.main-header {
+  text-align: center;
+  padding: 1rem;
+
+  &__title {
+    color: #444;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
 }

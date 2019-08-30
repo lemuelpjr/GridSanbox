@@ -1,26 +1,15 @@
-.main-header {
-  text-align: center;
-  padding: 1rem;
-
-  &__title {
-    color: #444;
-    font-size: 4rem;
-    margin-bottom: 4rem;
-  }
-}
-
-.content {
-  background-color: #f0f0f0;
-  min-height: 50rem;
-  margin-bottom: 3rem;
-  display: grid;
+// .content {
+//   background-color: #f0f0f0;
+//   min-height: 50rem;
+//   margin-bottom: 3rem;
+//   display: grid;
   // Define the number and height of rows
   // grid-template-rows: 15rem 15rem;
   // Define the number and width of columns
   // grid-template-columns: 15rem 15rem 15rem;
 
   // Define the number and height of rows using REPEAT
-  grid-template-rows: repeat(2, 15rem);
+  // grid-template-rows: repeat(2, 15rem);
   // Define the number and width of columns using REPEAT and FRACTIONAL UNIT
   // grid-template-columns: repeat(2, 15rem) 1fr;
 
@@ -31,53 +20,53 @@
   // grid-template-columns: 50% 1fr 1fr;
 
   // Define the number and width of columns using REPEAT and FRACTIONAL UNIT
-  grid-template-columns: repeat(3, 1fr);
+  // grid-template-columns: repeat(3, 1fr);
 
   // Define gutter between rows
   // grid-row-gap: 2rem;
   // Define gutter between columns
   // grid-column-gap: 4rem;
   // Define the same gutter between rows and columns
-  grid-gap: 3rem;
+  // grid-gap: 3rem;
 
-  &__box {
-    color: #fff;
-    font-size: 2rem;
-    text-align: center;
-    padding: 1rem;
+  // &__box {
+  //   color: #fff;
+  //   font-size: 2rem;
+  //   text-align: center;
+  //   padding: 1rem;
 
-    &--1 {
-      background-color: blueviolet;
+  //   &--1 {
+  //     background-color: blueviolet;
+  //     // Define at which row this cell will start and end
+  //     grid-row-start: 2;
+  //     grid-row-end: 3;
+  //     // Define at which column this cell will start and end
+  //     grid-column-start: 2;
+  //     grid-column-end: 4;
+  //   }
+
+  //   &--2 {
+  //     background-color: indigo;
+  //   }
+
+  //   &--3 {
+  //     background-color: forestgreen;
+  //   }
+
+  //   &--4 {
+  //     background-color: olive;
+  //   }
+
+    // &--5 {
+    //   background-color: brown;
       // Define at which row this cell will start and end
-      grid-row-start: 2;
-      grid-row-end: 3;
+      // grid-row: 1 / 2;
       // Define at which column this cell will start and end
-      grid-column-start: 2;
-      grid-column-end: 4;
-    }
+      // grid-column: 3 / 4;
+    // }
 
-    &--2 {
-      background-color: indigo;
-    }
-
-    &--3 {
-      background-color: forestgreen;
-    }
-
-    &--4 {
-      background-color: olive;
-    }
-
-    &--5 {
-      background-color: brown;
-      // Define at which row this cell will start and end
-      grid-row: 1 / 2;
-      // Define at which column this cell will start and end
-      grid-column: 3 / 4;
-    }
-
-    &--6 {
-      background-color: tomato;
-    }
-  }
-}
+//     &--6 {
+//       background-color: tomato;
+//     }
+//   }
+// }
