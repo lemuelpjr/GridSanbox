@@ -1,9 +1,9 @@
-.header {
+.main-header {
   text-align: center;
   padding: 1rem;
 }
 
-.header__title {
+.main-header__title {
   color: #444;
   font-size: 4rem;
   margin-bottom: 4rem;
