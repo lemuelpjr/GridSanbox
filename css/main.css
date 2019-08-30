@@ -1,12 +1,3 @@
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.container {
-  max-width: 80rem;
-  margin: auto;
-}
-
 .header {
   text-align: center;
   padding: 1rem;
@@ -72,5 +63,14 @@ body {
 
 .content__box--6 {
   background-color: tomato;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 80rem;
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
