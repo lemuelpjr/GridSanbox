@@ -24,6 +24,14 @@
   grid-column: 1 / -1;
 }
 
+.side-bar {
+  width: 24rem;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2 / 5;
+  grid-column: 4 / -1;
+}
+
 .main-content {
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
@@ -43,7 +51,7 @@ body {
 }
 
 .container {
-  max-width: 80rem;
+  max-width: 70rem;
   margin: auto;
 }
 
