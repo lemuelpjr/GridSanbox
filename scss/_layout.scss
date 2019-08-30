@@ -1,4 +1,13 @@
+// GENERAL LAYOUT
 .layout {
   background-color: #f0f0f0;
   display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.layout > * {
+  background-color: indigo;
+  color: #fff;
 }

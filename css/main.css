@@ -2,6 +2,16 @@
   background-color: #f0f0f0;
   display: -ms-grid;
   display: grid;
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.layout > * {
+  background-color: indigo;
+  color: #fff;
 }
 
 body {
