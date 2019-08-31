@@ -5,8 +5,16 @@
   // GRID RULES
   display: grid;
   // Using line names
-  grid-template-rows: [hdr-start] 1fr [hdr-end sm-content-start] 1fr [sm-content-end main-content-start] 2fr [main-content-end ftr-start] 1fr [ftr-end];
-  grid-template-columns: repeat(4, [col-start] 1fr [col-end]);
+  // grid-template-rows: [hdr-start] 1fr [hdr-end sm-content-start] 1fr [sm-content-end main-content-start] 2fr [main-content-end ftr-start] 1fr [ftr-end];
+  // grid-template-columns: repeat(4, [col-start] 1fr [col-end]);
+
+  // Using area names
+  grid-template-areas: "head head head head"
+                        "small small small side"
+                        "main main main side"
+                        "main main main side"
+                        "foot foot foot foot";
+
   grid-gap: 1.5rem;
 }
 
@@ -24,8 +32,11 @@
   // grid-column: 1 / -1;
 
   // Using line names
-  grid-row: hdr-start / hdr-end;
-  grid-column: col-start 1 / col-end 4;
+  // grid-row: hdr-start / hdr-end;
+  // grid-column: col-start 1 / col-end 4;
+
+  //Using area names
+  grid-area: head;
 }
 
 .side-bar {
@@ -35,8 +46,11 @@
   // grid-column: 4 / -1;
 
   // Using line names
-  grid-row: sm-content-start / main-content-end;
-  grid-column: col-start 4 / col-end 4;
+  // grid-row: sm-content-start / main-content-end;
+  // grid-column: col-start 4 / col-end 4;
+
+  //Using area names
+  grid-area: side;
 }
 
 .main-content {
@@ -45,8 +59,11 @@
   // grid-column: 1 / 4;
 
   // Using line names
-  grid-row: main-content-start / main-content-end;
-  grid-column: col-start 1 / col-end 3;
+  // grid-row: main-content-start / main-content-end;
+  // grid-column: col-start 1 / col-end 3;
+
+  //Using area names
+  grid-area: main;
 }
 
 .footer {
@@ -55,6 +72,9 @@
   // grid-column: 1 / -1;
 
   // Using line names
-  grid-row: ftr-start / ftr-end;
-  grid-column: col-start 1 / col-end 4;
+  // grid-row: ftr-start / ftr-end;
+  // grid-column: col-start 1 / col-end 4;
+
+  //Using area names
+  grid-area: foot;
 }
