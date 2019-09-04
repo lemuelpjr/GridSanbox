@@ -20,31 +20,31 @@ body {
   overflow-x: hidden;
   width: 100%; }
 
-.layout {
+.content {
   background-color: #f0f0f0;
   min-height: 50rem;
+  margin-bottom: 3rem;
   display: grid;
-  grid-template-areas: "head head head head" "small small small side" "main main main side" "main main main side" "foot foot foot foot";
-  grid-gap: 1.5rem; }
-
-.layout > * {
-  background-color: indigo;
-  color: #fff;
-  font-size: 1.8rem;
-  padding: 1.5rem; }
-
-.header {
-  grid-area: head; }
-
-.side-bar {
-  width: 24rem;
-  grid-area: side; }
-
-.main-content {
-  grid-area: main; }
-
-.footer {
-  grid-area: foot; }
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: -webkit-max-content 1fr 1fr;
+  grid-template-columns: max-content 1fr 1fr; }
+  .content__box {
+    color: #fff;
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem; }
+    .content__box--1 {
+      background-color: blueviolet; }
+    .content__box--2 {
+      background-color: indigo; }
+    .content__box--3 {
+      background-color: forestgreen; }
+    .content__box--4 {
+      background-color: olive; }
+    .content__box--5 {
+      background-color: brown; }
+    .content__box--6 {
+      background-color: tomato; }
 
 body {
   font-family: 'Montserrat', sans-serif; }

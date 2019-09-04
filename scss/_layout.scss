@@ -1,30 +1,30 @@
 // GENERAL LAYOUT
 .layout {
-  background-color: #f0f0f0;
-  min-height: 50rem;
+  // background-color: #f0f0f0;
+  // min-height: 50rem;
   // GRID RULES
-  display: grid;
+  // display: grid;
   // Using line names
   // grid-template-rows: [hdr-start] 1fr [hdr-end sm-content-start] 1fr [sm-content-end main-content-start] 2fr [main-content-end ftr-start] 1fr [ftr-end];
   // grid-template-columns: repeat(4, [col-start] 1fr [col-end]);
 
   // Using area names
-  grid-template-areas: "head head head head"
-                        "small small small side"
-                        "main main main side"
-                        "main main main side"
-                        "foot foot foot foot";
+  // grid-template-areas: "head head head head"
+  //                       "small small small side"
+  //                       "main main main side"
+  //                       "main main main side"
+  //                       "foot foot foot foot";
 
-  grid-gap: 1.5rem;
+  // grid-gap: 1.5rem;
 }
 
 // SELECT ALL DIRECT CHILDREN
-.layout > * {
-  background-color: indigo;
-  color: #fff;
-  font-size: 1.8rem;
-  padding: 1.5rem;
-}
+// .layout > * {
+//   background-color: indigo;
+//   color: #fff;
+//   font-size: 1.8rem;
+//   padding: 1.5rem;
+// }
 
 .header {
   // Using line numbers
@@ -36,11 +36,11 @@
   // grid-column: col-start 1 / col-end 4;
 
   //Using area names
-  grid-area: head;
+  // grid-area: head;
 }
 
 .side-bar {
-  width: 24rem;
+  // width: 24rem;
   // Using line numbers
   // grid-row: 2 / 5;
   // grid-column: 4 / -1;
@@ -50,7 +50,7 @@
   // grid-column: col-start 4 / col-end 4;
 
   //Using area names
-  grid-area: side;
+  // grid-area: side;
 }
 
 .main-content {
@@ -63,7 +63,7 @@
   // grid-column: col-start 1 / col-end 3;
 
   //Using area names
-  grid-area: main;
+  // grid-area: main;
 }
 
 .footer {
@@ -76,5 +76,5 @@
   // grid-column: col-start 1 / col-end 4;
 
   //Using area names
-  grid-area: foot;
+  // grid-area: foot;
 }

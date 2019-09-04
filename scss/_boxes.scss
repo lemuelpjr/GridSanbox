@@ -70,3 +70,46 @@
 //     }
 //   }
 // }
+
+// TESTING MORE ADVANCED FEATURES
+.content {
+  background-color: #f0f0f0;
+  min-height: 50rem;
+  margin-bottom: 3rem;
+  display: grid;
+  // Define rows
+  grid-template-rows: repeat(2, 1fr);
+  // Define columns with max-content (the grid will fit the cell content width)
+  grid-template-columns: max-content 1fr 1fr;
+
+  &__box {
+    color: #fff;
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+
+    &--1 {
+      background-color: blueviolet;
+    }
+
+    &--2 {
+      background-color: indigo;
+    }
+
+    &--3 {
+      background-color: forestgreen;
+    }
+
+    &--4 {
+      background-color: olive;
+    }
+
+    &--5 {
+      background-color: brown;
+    }
+
+    &--6 {
+      background-color: tomato;
+    }
+  }
+}
