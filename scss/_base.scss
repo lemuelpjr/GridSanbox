@@ -1,0 +1,19 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 70rem;
+  margin: auto;
+}
+
+.main-header {
+  text-align: center;
+  padding: 1rem;
+
+  &__title {
+    color: #444;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
+}

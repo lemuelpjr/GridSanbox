@@ -78,9 +78,14 @@
   margin-bottom: 3rem;
   display: grid;
   // Define rows
-  grid-template-rows: repeat(2, 1fr);
-  // Define columns with max-content (the grid will fit the cell content width)
-  grid-template-columns: max-content 1fr 1fr;
+  // grid-template-rows: repeat(2, 1fr);
+  // Define columns with max-content (the grid will fit the cell content width without line breaks)
+  // grid-template-columns: max-content 1fr 1fr;
+
+  // Define rows using min-content
+  grid-template-rows: repeat(2, min-content);
+  // Define columns with min-content (the grid will fit the cell content width with line breaks)
+  grid-template-columns: min-content 1fr min-content;
 
   &__box {
     color: #fff;
@@ -109,7 +114,7 @@
     }
 
     &--6 {
-      background-color: tomato;
+      background-color: red;
     }
   }
 }
