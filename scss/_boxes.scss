@@ -83,9 +83,13 @@
   // grid-template-columns: max-content 1fr 1fr;
 
   // Define rows using min-content
-  grid-template-rows: repeat(2, min-content);
+  // grid-template-rows: repeat(2, min-content);
   // Define columns with min-content (the grid will fit the cell content width with line breaks)
-  grid-template-columns: min-content 1fr min-content;
+  // grid-template-columns: min-content 1fr min-content;
+
+  // USING AUTO-FIT AND AUTO-FILL
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, 10rem);
 
   &__box {
     color: #fff;
