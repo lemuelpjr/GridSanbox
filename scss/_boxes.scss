@@ -89,7 +89,10 @@
 
   // USING AUTO-FIT AND AUTO-FILL
   grid-template-rows: repeat(2, 1fr);
+  // Using auto-fill
   grid-template-columns: repeat(auto-fill, 10rem);
+  // Using auto-fit
+  grid-template-columns: repeat(auto-fit, 10rem);
 
   &__box {
     color: #fff;

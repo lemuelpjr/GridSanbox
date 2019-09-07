@@ -41,7 +41,8 @@ body {
   margin-bottom: 3rem;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(auto-fill, 10rem); }
+  grid-template-columns: repeat(auto-fill, 10rem);
+  grid-template-columns: repeat(auto-fit, 10rem); }
   .content__box {
     color: #fff;
     font-size: 2rem;
