@@ -93,6 +93,10 @@
   grid-template-columns: repeat(auto-fill, 10rem);
   // Using auto-fit
   grid-template-columns: repeat(auto-fit, 10rem);
+  // Using auto-fit with minmax function (cells will behave like flex wrap)
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  // Set the height of implicit rows
+  grid-auto-rows: 1fr;
 
   &__box {
     color: #fff;
